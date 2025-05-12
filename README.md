@@ -303,5 +303,21 @@ Authorization: Bearer <access_token>
 }
 ```
 
+
+## Websocket Connection
+
+### Connection and Send Message 
+
+**EVENTS**: `private_message`  
+**URL**: `/?token={{accessToken}}`
+
+#### Messaage
+```json
+{
+    "receiverId": "682149532ab2b4c4248a5f1b", // id another user
+    "content": "Hello from from 22 to 21 qq"
+}
+```
+
 ## Another Features
 .You can also send messages to yourself like the feature in WhatsApp in case you want to save notes or for other purposes
