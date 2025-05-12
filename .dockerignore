@@ -1,0 +1,18 @@
+# Jangan salin folder node_modules yang ada di lokal
+node_modules
+
+# Jangan salin file .env lokal (gunakan .env di dalam container atau volume)
+.env
+
+# Jangan salin file log
+*.log
+
+# Folder build atau dist, tergantung dari build tool yang digunakan
+build/
+dist/
+
+# File Dockerfile atau konfigurasi lain yang sensitif
+Dockerfile
+.dockerignore
+
+# File lainnya yang tidak perlu masuk ke dalam image
