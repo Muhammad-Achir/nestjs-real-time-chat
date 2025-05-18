@@ -485,7 +485,7 @@ export const zodiacData = [
       "zodiac": "Rabbit"
     },
     {
-      "start": "1926 Februry 13",
+      "start": "1926-02-13",
       "end": "1927-02-01",
       "zodiac": "Tiger"
     },
